@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p>Pa<span>r</span>as</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                   <i class="material-icons" onclick="closemenu()">close</i>
+                </ul>
+                <i class="material-icons" id ="icon2" onclick="openmenu()"> menu
+                </i>
+            </nav>
+            <div class="header-text">
+                <p>Web Devloper</p>
+                <h1>Hi I'm <span>Paras</span> <br>Jadhav from India</h1>
+<img class="illustration" src="./Hand coding-amico(1).png"" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="About" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img  src="./propic1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p class="aboutme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatibus
+                        officia nemo asperiores ipsum, deserunt aperiam beatae officiis voluptate ipsa voluptatem esse
+                        quibusdam at nulla reprehenderit animi iste numquam sapiente veritatis illum autem nihil!
+                        Inventore molestiae sed sunt eaque veritatis ipsam excepturi obcaecati, sint ullam autem?
+                        Mollitia n?</p>
+                    <div class="tablists">
+                        <p class="tablinks active-link" onclick='opentab("skills")'>Skills</p>
+                        <p class="tablinks" onclick='opentab("Experience")'>Experience</p>
+                        <p class="tablinks" onclick='opentab("Education")'>Education</p>
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>ux developer</span><br>designing books
+                            </li>
+
+                            <li><span>ux developer</span><br>designing apps
+                            </li>
+
+                            <li><span>ux developer</span><br>desingning websites
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023</span><br>Making of spotify clone
+                            </li>
+
+                            <li><span>2023</span><br>Making of portfolio website
+                            </li>
+
+                            <li><span>2023</span><br>Making of Myntra Clone
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2017</span><br>passed 12 th std
+                            </li>
+
+                            <li><span>2017-2022</span><br>Completed Engineering in Computer in sandip fondation
+                            </li>
+
+                            <li><span>2022</span><br>started web devlopment
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="Services" class="services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="servicelist">
+                <div>
+                    <i class="fa-sharp fa-light fa-apple-whole"></i>
+                    <h2>Web designing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero, nam error cupiditate
+                        illo asperiores aliquid dolor atque nulla dicta quas corrupti ipsum?Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Eum ipsam voluptates cumque cum! Laboriosam itaque
+                        pariatur similique laborum cupiditate earum esse consequuntur placeat consequatur?</p>
+                    <a href="">more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-light fa-apple-whole"></i>
+                    <h2>Web designing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero, nam error cupiditate
+                        illo asperiores aliquid dolor atque nulla dicta quas corrupti ipsum?Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Eum ipsam voluptates cumque cum! Laboriosam itaque
+                        pariatur similique laborum cupiditate earum esse consequuntur placeat consequatur?</p>
+                    <a href="">more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-light fa-apple-whole"></i>
+                    <h2>Web designing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero, nam error cupiditate
+                        illo asperiores aliquid dolor atque nulla dicta quas corrupti ipsum?Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Eum ipsam voluptates cumque cum! Laboriosam itaque
+                        pariatur similique laborum cupiditate earum esse consequuntur placeat consequatur?
+                    </p>
+                    <a href="">more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="Portfolio" class="portfolio">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work"><img src="appdev.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>click here to visit my social media app</p>
+                </div>
+                </div>
+                <div class="work"><img src="webdev.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>click here to visit my social media app</p>
+                    </div></div>
+                <div class="work"><img src="uiux.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>click here to visit my social media app</p>
+                    </div></div>
+            </div>
+            <a class ="btn" href="">See More</a>
+            
+        </div>
+    </div>
+
+<div id="Contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me
+                </h1>
+                <p>parasjadhav125@gmail.com</p>
+                <p>7972279591</p>
+                <a href="" class="btn btn-2">Download Cv</a>
+                
+            </div>
+            <div class="contact-right"></div>
+           
+           
+            
+        </div>
+        <span id="msg"></span>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy made by paras jadhav </p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+
+
+
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu")
+        var icon=document.getElementById("icon2")
+        function openmenu(){
+            sidemenu.style.right="0";
+            icon.style.display="none";
+        }
+        function closemenu(){
+            sidemenu.style.right="-128px"
+            icon.style.display="block";
+        }
+        
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbylxTj9A75T4-rKPrvLEoA4WGwRCcBed2hl_6K4X6PAJ0z9o9yC2kDkM6YUMzMSmvDC/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="successfully sent"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <script src="https://kit.fontawesome.com/315289841f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
