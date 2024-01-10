@@ -19,6 +19,7 @@ ul{
   background-position:center;
   background-repeat: no-repeat;
   color:black;
+  position: relative;
 }
 .illustration{
   height:310px;
@@ -45,6 +46,7 @@ ul{
 .container {
   padding: 20px 10%;
   color:black;
+
 }
 nav ul li {
   list-style: none;
@@ -353,6 +355,7 @@ display:none;
   }
   #sidemenu{
     height:200px;
+    width:30%;
   }
 
   .about-col-1{
@@ -361,10 +364,11 @@ display:none;
   }
    nav ul{
     position:fixed;
-    right:10px;
+  
     top:0;
+    right:-900px;
     height:40vh;
-    width:90px;
+    width:30%;
     padding-top: 30px;
     padding-left:10px;
     background: linear-gradient(rgba(186, 102, 255,0.2), rgb(186, 102, 255,0.2));
