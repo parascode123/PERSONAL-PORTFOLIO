@@ -361,7 +361,7 @@ display:none;
   }
    nav ul{
     position:fixed;
-    right:-998px;
+    right:10px;
     top:0;
     height:40vh;
     width:90px;
