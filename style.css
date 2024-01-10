@@ -96,7 +96,7 @@ nav span {
 .header-text h1 {
   color: rgb(0, 0, 0);
   margin: 8px 0;
-  font-size: 40px;
+  font-size: 32px;
 }
 .header-text span {
   color: rgb(0, 0, 0);
@@ -129,6 +129,7 @@ nav span {
 .subtitle {
   color: rgb(0, 0, 0);
   font-weight: 600;
+  font-size: 26px;
 }
 .aboutme {
   font-size: 17px;
@@ -204,7 +205,7 @@ color: black;
 
 .servicelist div p {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 15px;
   color:rgb(255, 255, 255);
 }
 .servicelist div a {
@@ -256,6 +257,9 @@ color: black;
   display: flex;
   text-align: center;
 }
+.layer a img{
+  width: 36px;
+}
 .work:hover img {
   transform: scale(1.1);
 }
@@ -263,7 +267,7 @@ color: black;
   height: 100%;
 }
 .layer p {
-  font-size: 14px;
+  font-size: 20px;
 }
 .btn {
   text-decoration: none;
