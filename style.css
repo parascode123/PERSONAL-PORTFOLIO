@@ -20,6 +20,7 @@ ul{
   background-repeat: no-repeat;
   color:black;
   position: relative;
+  overflow:hidden;
 }
 .illustration{
   height:310px;
@@ -30,7 +31,8 @@ ul{
   animation-duration:3s;
   animation-iteration-count: infinite;
   transition :all .3s;
-  animation-timing-function:ease
+  animation-timing-function:ease;
+  overflow:hidden;
 }
 @keyframes infiniteUpdown{
   0%{
@@ -391,4 +393,15 @@ display:none;
   .contact-right,.contact-left{
     flex-basis:100%;
   }
+}
+.aboutme{
+  width:269px;
+}
+
+.tab-contents ul{
+  width:235px;
+}
+
+.tab-contents ul li{
+  
 }
